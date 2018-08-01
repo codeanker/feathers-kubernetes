@@ -9,7 +9,7 @@ And the metrics endpoint a Prometheus endpoint to collect feathers service metri
 ## example
 
 ```
-const { prometheus, health } = require('feathers-kubernetes')
+const { prometheus, health } = require('@codeanker/feathers-kubernetes')
 
 app.configure(prometheus()) // this must be placed after the this been called
 app.configure(health())
